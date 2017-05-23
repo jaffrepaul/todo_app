@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Todo list app</title>
+
+        <!-- Content Type Meta tag -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+        <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="resources/css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  </head>
+  <body>
+
+    <header>
+      <input type="text" placeholder="Enter a task..." id="item">
+      <button id="add">
+        <svg width="16px" height="16px" viewBox="14 14 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><path class="fill" d="M26,20 C26,20.375 25.625,20.75 25.25,20.75 L20.75,20.75 L20.75,25.25 C20.75,25.625 20.375,26 20,26 C19.625,26 19.25,25.625 19.25,25.25 L19.25,20.75 L14.75,20.75 C14.375,20.75 14,20.375 14,20 C14,19.625 14.375,19.25 14.75,19.25 L19.25,19.25 L19.25,14.75 C19.25,14.375 19.625,14 20,14 C20.375,14 20.75,14.375 20.75,14.75 L20.75,19.25 L25.25,19.25 C25.625,19.25 26,19.625 26,20 Z" id="Shape" stroke="none" fill="#22AB8E" fill-rule="nonzero"></path></svg>
+      </button>
+    </header>
+
+      <div class="container">
+			<!-- Incomplete tasks -->
+        <ul class="todo" id="todo"></ul>
+
+			<!-- Complete tasks -->
+        <ul class="todo" id="completed"></ul>
+
+      </div>
+
+
+        <!-- Javascript -->
+    <script src="resources/js/main.js"></script>
+  </body>
+
+</html>
+
